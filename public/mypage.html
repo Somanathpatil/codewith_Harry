@@ -8,7 +8,7 @@
 <body>
     <Script>
         async function testPost(){
-            let a = await fatch("/",{method:"POST"})
+            let a = await fetch("/",{method:"POST"})
             let b = await a.text()
             console.log(b)
         }
